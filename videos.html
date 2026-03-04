@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="floating-bg">
+        <div class="floating-item" style="left: 20%; animation-duration: 11s;">🎥</div>
+        <div class="floating-item" style="left: 60%; animation-duration: 14s;">✨</div>
+    </div>
+
+    <div class="gallery-container">
+        <h1>Birthday Videos 🎥</h1>
+        <div class="media-grid">
+            <!-- Placeholders for videos -->
+            <div class="media-item">
+                <video class="media-video" src="C:\Users\Public\Pictures\pictures\lv_0_20260301163116.mp4" muted
+                    loop></video>
+            </div>
+            <div class="media-item">
+                <video class="media-video" src="C:\Users\Public\Pictures\pictures\lv_0_20260301200139.mp4" muted
+                    loop></video>
+            </div>
+
+            <div class="media-item">
+                <video class="media-video" src="C:\Users\Public\Pictures\pictures\lv_0_20260302000822.mp4" muted
+                    loop></video>
+            </div>
+        </div>
+
+        <!-- Video Modal -->
+        <div id="videoModal" class="video-modal">
+            <span class="close-modal">&times;</span>
+            <video id="modalVideo" src="" controls></video>
+        </div>
+
+        <a href="surprise.html" class="backsur">⬅ Back to Surprise</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
