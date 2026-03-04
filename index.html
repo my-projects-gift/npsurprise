@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="floating-bg">
+        <div class="floating-item" style="left: 10%; animation-duration: 8s;">🎈</div>
+        <div class="floating-item" style="left: 30%; animation-duration: 12s;">✨</div>
+        <div class="floating-item" style="left: 70%; animation-duration: 7s;">🎁</div>
+        <div class="floating-item" style="left: 85%; animation-duration: 10s;">🎉</div>
+    </div>
+
+    <div class="login-container">
+        <h1>Welcome!</h1>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Who is the birthday girl?</label>
+                <input type="text" id="username" name="username" placeholder="Enter name" required autocomplete="off">
+            </div>
+            <div class="input-group">
+                <label for="password">What's the special date?</label>
+                <input type="password" id="password" name="password" placeholder="Enter date" required>
+            </div>
+            <button type="submit">Enter Surprise</button>
+            <div class="error-msg" id="errorMsg"></div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
